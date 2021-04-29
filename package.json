@@ -1,6 +1,6 @@
 {
   "name": "aike-select",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React Select",
   "engines": {
     "node": ">=8.x"
@@ -43,7 +43,9 @@
     "react-dom": "*"
   },
   "dependencies": {
+    "@ant-design/icons": "^4.6.2",
     "@babel/runtime": "^7.10.1",
+    "antd": "^4.15.3",
     "classnames": "2.x",
     "rc-motion": "^2.0.1",
     "rc-overflow": "^1.0.0",
