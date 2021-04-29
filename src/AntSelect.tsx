@@ -182,7 +182,11 @@ export const FormilyAntdSelect = connect(
       return {
         ...props,
         suffixIcon:
-          field?.loading || field?.validating ? <LoadingOutlined /> : props.suffixIcon,
+          (field as any)?.loading || (field as any)?.validating ? (
+            <LoadingOutlined />
+          ) : (
+            props.suffixIcon
+          ),
       };
     },
   ),
